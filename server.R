@@ -15,7 +15,7 @@ options(scipen=999)
 #####################
 load("./resources/Mphg/PeaksAnnotations_A_object.Rdata")
 load("./resources/Mphg/PeaksAnnotations_B_object.Rdata")
-load("./resources/Mphg/PeaksAnnotations_object.Rdata")
+load("./resources/Mphg/PeakClassificationData.Rdata")
 load("./resources/Mphg/ReducedMHC_AltPeaks.Rdata")
 load("./resources/TxChr6_genesymbol.Rdata")
 
