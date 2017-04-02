@@ -2,11 +2,11 @@
 ## LIBRARIES ##
 ###############
 library(shiny)
-library(ggplot2)
+#library(ggplot2)
 library(Gviz)
 library(rtracklayer)
 library(GenomicFeatures)
-library(Rsamtools)
+#library(Rsamtools)
 library(biomaRt)
 options(ucscChromosomeNames=FALSE)
 options(scipen=999)
