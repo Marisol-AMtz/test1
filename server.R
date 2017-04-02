@@ -269,8 +269,8 @@ shinyServer(function(input, output){
             
           if(input$qrygene!="All"){
             if(grepl("ENSG0",input$qrygene,ignore.case = T)){
-              AltPeaksTab<-subset(AltPeaksTab,grepl(GeneID,input$qrygene))
-            }else{ AltPeaksTab<-subset(AltPeaksTab,grepl(gene_symbol,input$qrygene,fixed = T,ignore.case = T))}
+              AltPeaksTab<-subset(AltPeaksTab,grepl(input$qrygene,GeneID,,ignore.case = T))
+            }else{ AltPeaksTab<-subset(AltPeaksTab,grepl(input$qrygene,gene_symbol,ignore.case = T))}
             row.names(AltPeaksTab)<-NULL
           }
             #AltPeaksTab<-subset(AltPeaksTab,Category!="Failed")
